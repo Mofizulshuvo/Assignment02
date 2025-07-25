@@ -262,6 +262,13 @@
    
 }
 
+.footer li{
+    list-style: none;
+}
+
+body li{
+    list-style: none;
+}
 
 .div4 {
 display: flex;
