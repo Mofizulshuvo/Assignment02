@@ -5,43 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flower Shop</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Noto+Serif&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-
-    <style>
-        .font-sans {
-            font-family: 'Inter', sans-serif;
-        }
-
-        .font-serif {
-            font-family: 'Noto Serif', serif;
-        }
-    </style>
 
 </head>
 
 <body>
-    <div class="nav mr-[150px] ml-[150px] mt-[50px] flex justify-between w-[1140px] h-[71px]">
-        <img class="w-[125px] h-[82px]" src="assets/logo.png" alt="logo">
-        <ul class="flex gap-5 items-center">
-            <li class="font-bold">Home</li>
-            <li class="text-gray-800">Shop</li>
-            <li class="text-gray-800">About Us</li>
-            <li class="font-bold"> <i class="fas fa-shopping-cart text-2xl text-gray-700"></i>
-                Cart($56)</li>
-        </ul>
-    </div>
+    <div class="nav-banner">
+     <div class="nav ">
+        <img class="logo" src="assets/logo.png" alt="logo">
+        
+        
+         <ul class="font-sans">
+            <li class="Home bold ">Home</li>
+            <li class=" Shop gray ">Shop</li>
+            <li class=" Shop gray ">About Us</li>
+            <li class=" Cart bold "> <i class="fas fa-shopping-cart"></i>Cart($56)</li>
+         </ul>
+        
+     </div>
 
-    <section class="mr-[150px] ml-[150px] mt-[50px]  mb-[20px] w-[1140px] h-[461px] flex items-end">
-        <div class="text-4xl w-[570px] h-[299px] font-serif items-end pt-[150px]">
-            <span>ALWAYS</span> <span class="text-[#E95A08]">FRESH <br> FLOWERS</span>
-            <p class="text-gray-700 text-sm mt-[10px] font-sans">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic
+     <section class="banner">
+        <div class="text font-serif">
+            <span>ALWAYS</span> <span class="orange">FRESH <br> FLOWERS</span>
+            <p class="font-sans gray">Indulge your senses with the beauty and fragrance of
+                our fresh flower shop. From classic roses to exotic
                 blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
         </div>
-        <div class="">
-        <img src="assets/hero-flower.png" alt="Hero-flower" class="w-[570px] h-[355px]">
+        <div class="hero-flower">
+            <img src="assets/hero-flower.png" alt="Hero-flower" >
         </div>
+     </section>
+    </div>
+
+
+    <section class="add-to-cart">
+        
     </section>
 
 </body>
