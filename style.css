@@ -1,103 +1,5 @@
- 
-  /* .orange{
-    color:#E95A08
-  }
-
- .font-sans {
-            font-family: 'Inter', sans-serif;
-        }
-
-        .font-serif {
-            font-family: 'Noto Serif', serif;
-        }
-
-        .bold{
-            font-weight: 800;
-            color:black
-
-        }
-        .gray{
-            color:gray;
-            font-weight: 200;
-        }
-
-
-
-        .nav{
-            display: flex;
-            margin-left: 9.5rem;
-            margin-right: 9.5rem;
-            margin-top: 1rem;
-            margin-bottom: 8rem;
-            justify-items: center;
-            align-items: center;
-            width: 71.25rem;
-            height: 4.43rem;
-             justify-content: space-between;
-
-        }
-
-           ul {
-            display: flex;
-            list-style: none;
-            justify-content: space-between;
-            
-        }
-
-        .logo{
-            width: 8rem;
-            height: 5.12rem
-        }
-
-        .text span{
-            font-size: 4rem;
-        }
-        .text p{
-            font-size: 1rem;
-        }
-
-        .banner{
-            width: 71.25rem;
-            height: 23rem;
-            display: flex;
-            margin-left: 9.5rem;
-            margin-right: 9.5rem;
-            margin-top: 4rem;
-            margin-bottom: 2rem;
-            justify-items: center;
-            align-items: center;
-             justify-content: space-between;
-        }
-         .text{
-           width: 35.5rem;
-           height: 10rem;  
-           align-items: self-end;
-        }
-        .hero-flower{
-            width:35.5rem;
-            height: 22rem;
-        }
-
-
-
-        @media screen and (max-width: 676px){
-            /* li{
-                display: none;
-            }
-           li> .cart{
-                display: block;
-            } */
-            /* .nav{
-                margin-left: 3.125rem;
-                margin-right: 3.125rem;
-                width: 30.25rem;
-            height: 4.43rem;
-            }
-            
-        } */ 
-
-
-        .orange{
+    
+    .orange{
     color:#E95A08
   }
 
@@ -126,7 +28,7 @@
             margin-bottom: 4rem;
         }
 
-        ul{
+        .nav ul{
             display: flex;
             list-style: none;
             gap:1.5rem;
@@ -182,7 +84,7 @@
         }
        
 
-        a{
+        .All-card a{
             text-decoration: none;
             color: white;
         }
@@ -224,9 +126,176 @@
 
 
 
+        .image-badge-text{
+            display: flex;
+            margin-left: 9.5rem;
+            margin-right:9.5rem;
+            margin-top:1rem;
+            margin-bottom: 4rem;
+            width:65rem;
+            height:30rem;
+        }
+        .image-badge-text img{
+            width: 100%;
+            height:100%;
+        }
+
+         .title-and-text{
+             padding-left:4rem;
+             padding-top: .5rem;
+        }
+
+        .title-and-text .title 
+         {
+            font-size: 3rem;
+         }
+         .title-and-text ul {
+            padding-left:1rem;
+         }
+
+
+         .badge{
+            width:15rem;
+            height:15rem;
+            position: absolute;
+            left:29rem;
+            top:110rem;
+            filter: drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.568));
+            
+         }
+
+         .Latest-Deal{
+            text-align: center;
+            padding-left:21rem;
+            padding-right:21rem;
+         }
+         .Latest-Deal h2{
+            font-size: 3rem;
+            margin:-.5rem;
+         }
+
+         .cover{
+            width:65rem;
+            height:25rem;
+            margin-left: 9.5rem;
+            margin-right:9.5rem;
+            margin-top:3rem;
+            margin-bottom: 4rem;
+            display: grid;
+            grid-template-columns: 30% 70%;
+            row-gap: 2rem;
+            column-gap: 2rem;
+         }
+
+         .part1{
+             grid-template-rows: 30% 70%;
+            
+         }
+         .image-container1{
+            background-image:url(assets/deal-bloom.png);
+
+         }
+         .image-container2{
+            background-image: url(assets/deal-ana.png);
+         }
+
+         .overly-text{
+
+         }
+
+.part2 {
+  background-image: url(assets/deal-zabo.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  text-align: center;
+  padding-top: 12.5rem;
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 2rem;
+}
+
+.part2::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4); /* dark overlay */
+  z-index: 0;
+}
+
+.part2 > * {
+  position: relative;
+  z-index: 1;
+}
+
+.white{
+    color:white;
+}
 
 
 
+/* .join-section{
+    text-align: center;
+    padding-left:10rem;
+    padding-top: 30rem;
+    background: url(assets/news-letter-bg.png);
+    width:100%;
+    height:40rem; */
+/* } */
+
+.btn2{
+    height: 2rem;
+    width: 8rem;
+    background-color: #E95A08;
+    color:white;
+    font-weight: 300;
+    border: none;
+    
+}
+
+.input{
+    width:40rem;
+    height:2rem;
+    background-color: White;
+    color: gray;
+    border: none;
+}
+
+
+.form{
+            text-align: center;
+            position: absolute;
+            left:18rem;
+            top:200rem;
+}
+
+
+.footer{
+    padding: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+.footer li{
+    list-style: none;
+}
+
+.div3, .div2 li{
+    row-gap: 10rem;
+}
+
+.div4{
+    justify-content: space-between;
+    column-gap: 10rem;
+}
 
 
 
@@ -267,6 +336,10 @@
           }
 
 
+
+
+
+
          /* Card section */
           .add-to-cart{
             margin-left: .8rem;
@@ -301,4 +374,52 @@
             border: none;
             color: white;
         }
+
+
+
+
+        /* for the img-text-badge section */
+        .image-badge-text{
+             width:24rem;
+            height:23rem;
+            margin-left: .8rem;
+            margin-right:.8rem;
+            margin-top:.8rem;
+            margin-bottom: .8rem;
+            flex-direction: column;
+        }
+        .image-badge-text img{
+            width: 100%;
+            height:20rem;
+        }
+        .title-and-text{
+            margin-top: 0rem;
+            padding:1rem;
+            margin:0%;
+        }
+        .title-and-text .title{
+            font-size: medium;
+        }
+
+        .badge{
+            display: none;
+        }
+
+
+        .Latest-Deal{
+            text-align: center;
+            margin-top: 25rem;
+            padding-left:2rem;
+            padding-right:2rem;
+         }
+         .Latest-Deal h2{
+            font-size: 2rem;
+            margin:-.5rem;
+         }
+
+
+
+
+
+
 }
